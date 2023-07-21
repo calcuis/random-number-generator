@@ -2,9 +2,9 @@ import { useState } from 'react';
 
 function App() {
 
-  const [minVal, setMinVal] = useState(1);
-  const [maxVal, setMaxVal] = useState(99);
-  const [randomNum, setRandomNum] = useState(Math.floor(Math.random()*(maxVal-minVal+1)+minVal));
+  const [minVal,setMinVal] = useState(1);
+  const [maxVal,setMaxVal] = useState(99);
+  const [randomNum,setRandomNum] = useState(Math.floor(Math.random()*(maxVal-minVal+1)+minVal));
   
   const handlePick = () =>{
     setRandomNum(Math.floor(Math.random()*(maxVal-minVal+1)+minVal));
