@@ -1,6 +1,6 @@
 import { useState } from 'react';
 
-function Random() {
+function App() {
 
   const [minVal, setMinVal] = useState(1);
   const [maxVal, setMaxVal] = useState(99);
@@ -20,4 +20,4 @@ function Random() {
     )
   }
   
-  export default Random;
+  export default App;
